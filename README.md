@@ -43,7 +43,7 @@ Une application de messagerie en temps réel inspirée de WhatsApp, développée
 ```
 whatsapp-clone/
 │
-├── whatsapp-clone-api     # Backend (Spring Boot)
+├── whatsapp-clone     # Backend (Spring Boot)
 ├── whatsapp-clone-ui      # Frontend (Angular)
 └── README.md
 ```
@@ -60,14 +60,18 @@ cd whatsapp-clone
 ```
 
 ---
+### 2️⃣ up docker compose.yml
 
-### 2️⃣ Backend (Spring Boot)
+''' docker compose up -d '''
+
+
+### 3️⃣ Backend (Spring Boot)
 
 ```bash
 cd whatsapp-clone-api
 ```
 
-Configurer `application.yml` ou `application.properties` :
+Configurer `application.yml` :
 
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/whatsapp_clone
@@ -101,12 +105,8 @@ http://localhost:4200
 
 ## 🔐 Authentification
 
-Le projet peut utiliser :
-- JWT
-- ou Keycloak (OAuth2)
-
-Configurer selon ton besoin dans le backend.
-
+ Keycloak (OAuth2)
+ 
 ---
 
 ## 📸 Screenshots
