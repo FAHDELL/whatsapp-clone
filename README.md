@@ -110,10 +110,10 @@ Configurer selon ton besoin dans le backend.
 ---
 
 ## 📸 Screenshots
+<img width="1903" height="1010" alt="Capture d&#39;écran 2026-04-15 171227" src="https://github.com/user-attachments/assets/11a51d5e-9fbb-464d-bb97-88a7bad90ee6" />
 
-*(Ajoute ici des captures d’écran de ton application)*
-![page-init](image.png)
-![alt text](image-1.png)
+<img width="1902" height="1021" alt="Capture d&#39;écran 2026-04-15 171401" src="https://github.com/user-attachments/assets/8f978295-8426-4d00-a610-be9a937f972c" />
+
 ---
 
 ## 📌 API Endpoints (exemple)
